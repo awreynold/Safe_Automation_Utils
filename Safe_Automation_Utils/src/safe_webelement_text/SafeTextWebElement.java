@@ -1,4 +1,4 @@
-package safe_webelement_text;
+package safe_automation_utils.safe_webelement_text;
 
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -6,9 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import constants.Attribute_Constants;
-import safe_get_webelement_property.SafeGetAttributes;
-import utils.HelperUtils;
+import safe_automation_utils.constants.Attribute_Constants;
+import safe_automation_utils.safe_get_webelement_property.SafeGetAttributes;
+import safe_automation_utils.safe_utils.HelperUtils;
 
 /**
  * 
