@@ -1,10 +1,10 @@
-package safe_webelement_action;
+package safe_automation_utils.safe_webelement_action;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import utils.HelperUtils;
+import safe_automation_utils.safe_utils.HelperUtils;
 
 /**
  * 

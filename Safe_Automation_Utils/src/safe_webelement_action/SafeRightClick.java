@@ -1,16 +1,16 @@
-package safe_webelement_action;
+package safe_automation_utils.safe_webelement_action;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import utils.HelperUtils;
+import safe_automation_utils.safe_utils.HelperUtils;
 
 /**
  * 
  * @author Arthur Reynolds
  * created: 06/01/2019
- * updated: 06/10/2019
+ * updated: 06/18/2019
  * 
  * Contains methods that provide a safe way to handle right clicking on a WebElement.
  * 
@@ -33,7 +33,7 @@ public final class SafeRightClick {
 			if(driver==null || element==null)
 				return false;
 			Actions action = new Actions(driver);
-			action.contextClick(element);
+			action.contextClick(element).build().perform();
 			return true;
 		}catch(Exception ex) {
 			return false;
