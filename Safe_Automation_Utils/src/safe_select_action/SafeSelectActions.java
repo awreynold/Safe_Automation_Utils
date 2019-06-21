@@ -1,11 +1,11 @@
-package safe_select_action;
+package safe_automation_utils.safe_select_action;
 
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import safe_webelement_text.SafeTextWebElement;
+import safe_automation_utils.safe_webelement_text.SafeTextWebElement;
 
 /**
  * 
