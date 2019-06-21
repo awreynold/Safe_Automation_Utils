@@ -1,4 +1,4 @@
-package safe_get_webelement;
+package safe_automation_utils.safe_get_webelement;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
