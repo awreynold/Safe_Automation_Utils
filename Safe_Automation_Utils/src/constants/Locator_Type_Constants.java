@@ -1,4 +1,4 @@
-package constants;
+package safe_automation_utils.constants;
 
 /**
  * 

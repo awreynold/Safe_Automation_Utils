@@ -1,10 +1,10 @@
-package constants;
+package safe_automation_utils.constants;
 
 /**
  * 
  * @author Arthur Reynolds
  * created: 06/04/2019
- * updated: 06/10/2019
+ * updated: 06/18/2019
  * 
  * Contains constant values that represent various css values that can be used to get a WebElement.
  * This class can be extended upon to add additional constant values that would be used during making
@@ -26,6 +26,7 @@ public class CssSelector_Values {
 	public static final String HEAD = "head";
 	public static final String HEADER = "header";
 	public static final String DIALOG = "dialog";
+	public static final String ACCORDION = "accordion";
 	
 	//header values
 	public static final String H1 = "h1";
