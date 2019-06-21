@@ -1,9 +1,9 @@
-package safe_get_webelement_property;
+package safe_automation_utils.safe_get_webelement_property;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import utils.HelperUtils;
+import safe_automation_utils.safe_utils.HelperUtils;
 
 /**
  * 
