@@ -11,7 +11,7 @@ Requires at least Java 1.8 to compile the source files.
 
 ## Library Dependencies  
 Requires the following libraries to build successfully:
--Selenium 3.14
+/n-Selenium 3.14
 -Sikuli 1.1.4
 -Apache Commons IO 2.6
 -Apache POI 4.1.0
