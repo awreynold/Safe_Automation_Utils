@@ -10,4 +10,8 @@ cannot be found then null or false will be returned. Instead of having a NoSuchE
 Requires at least Java 1.8 to compile the source files.
 
 ## Library Dependencies  
-Requies at least Selenium 3.14 jar file to be in the project in order to build successfully.
+Requires the following libraries to build successfully:
+-Selenium 3.14
+-Sikuli 1.1.4
+-Apache Commons IO 2.6
+-Apache POI 4.1.0
